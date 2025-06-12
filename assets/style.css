@@ -127,7 +127,7 @@ footer {
 
 .parallax-wrapper {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
 }
@@ -144,8 +144,8 @@ footer {
     position: absolute;
     top: 0;
     left: 50%;
-    width: 200px;
-    height: 1100px;
+    width: 20vh;
+    height: 107vh;
     transform: translateX(-50%);
     z-index: 4; /* Adjusted to place it behind liquid-container and liquid-fill */
     pointer-events: none;
@@ -156,8 +156,8 @@ footer {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 200px;
-    height: 200px;
+    width: 20vh;
+    height: 20vh;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.1);
     overflow: hidden;
