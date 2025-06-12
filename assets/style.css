@@ -116,10 +116,15 @@ footer {
     font-style: italic;
 }
 
-.eggs {
-    width: 100%;
-    /* position: fixed; */
-    bottom: 0;
+.allergies {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--primary-color);
 }
 
 
@@ -214,6 +219,10 @@ footer {
 
 @media (min-width: 768px) {
     .instructions {
+        display: none;
+    }
+
+    .allergies {
         display: none;
     }
     }
