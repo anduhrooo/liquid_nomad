@@ -127,7 +127,7 @@ footer {
 
 .parallax-wrapper {
     position: relative;
-    height: 60vh;
+    height: 30vh;
     width: 100%;
     overflow: hidden;
 }
@@ -256,13 +256,13 @@ footer {
 
     .main {
         flex-direction: column;
-        padding: 20px;
+        /* padding: 20px; */
     }
 
-    img {
+    /* img {
         max-width: 100%;
         margin: 5px auto;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
