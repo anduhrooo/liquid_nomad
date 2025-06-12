@@ -11,10 +11,15 @@
 </head>
 <body>
     <header>
-        <img src="./assets/liquid_nomad.PNG" alt="">
+        <div class="parallax-wrapper">
+            <img src="./assets/liquid_nomad.PNG" alt="logo" class="header-logo">
+            <img src="./assets/pour.png" alt="Pouring Liquid" class="pour" data-speed="0.5">
+            <div class="liquid-container">
+                <div class="liquid-fill" id="liquid-fill"></div>
+            </div>
+        </div>
     </header>
     <nav>
-        <!-- <h1>Liquid Nomad</h1> -->
         <ul>
             <li class="links"><a href="./index.html">Drinks</a></li>
             <li class="links"><a href="./tips.html">Tip Me</a></li>
@@ -23,7 +28,6 @@
     
     <section class="main">
         <p class="instructions">tap on each card to find out more</p>
-        <!--  -->
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -97,13 +101,7 @@
         <p>© 2025 by Anduhrooo. All rights reserved.</p>
         <p>Made with love and a little bit of rum.</p>
     </footer>
-    <script>
-        document.querySelectorAll('.flip-card').forEach(card => {
-          card.addEventListener('click', () => {
-            card.classList.toggle('flipped');
-          });
-        });
-      </script>
+    <script src="./assets/script.js"></script>
 </body>
     
 </html>
