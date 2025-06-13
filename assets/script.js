@@ -23,19 +23,19 @@ window.addEventListener('scroll', () => {
 
     liquidFill.style.height = `${newHeight}px`;
 
-    const baseOffsetX = 80;
+    // const baseOffsetX = 80;
 
-    document.querySelectorAll('.fall-away').forEach(el => {
-        const speed = parseFloat(el.dataset.speed);
-        const offset = baseOffsetX + scrollY * speed;
-        const rotateDeg = scrollPercent * 15;
+    // document.querySelectorAll('.fall-away').forEach(el => {
+    //     const speed = parseFloat(el.dataset.speed);
+    //     const offset = baseOffsetX + scrollY * speed;
+    //     const rotateDeg = scrollPercent * 15;
 
-        if (el.classList.contains('fall-left')) {
-            el.style.transform = `translateX(-${offset}px) rotate(-${rotateDeg}deg)`;
-        } else {
-            el.style.transform = `translateX(${offset}px) rotate(${rotateDeg}deg)`;
-        }
+    //     if (el.classList.contains('fall-left')) {
+    //         el.style.transform = `translateX(-${offset}px) rotate(-${rotateDeg}deg)`;
+    //     } else {
+    //         el.style.transform = `translateX(${offset}px) rotate(${rotateDeg}deg)`;
+    //     }
 
-        el.style.opacity = `${1 - scrollPercent * 3}`;
-    });
+    //     el.style.opacity = `${1 - scrollPercent * 3}`;
+    // });
 });
