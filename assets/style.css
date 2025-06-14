@@ -42,6 +42,11 @@ nav ul li {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
 img {
     max-width: 85%;
     height: 75%;
