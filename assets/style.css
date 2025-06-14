@@ -134,7 +134,7 @@ footer {
 }
 
 .links {
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 .links a:visited {
